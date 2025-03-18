@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { getData } from "@/firebase/firestoreService";
-import NavbarServices from "@/components/NavbarServices";
+import NavbarServices from "@/Components/NavbarServices";
 
 const truncateText = (text, wordLimit) => {
     const words = text.split(" ");
