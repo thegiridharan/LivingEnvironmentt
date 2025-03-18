@@ -2,8 +2,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
-import HamburgerIcon from "@/components/HamburgerIcon";
 import { Drawer, Box } from "@mui/material";
+import MenuIcon from "@mui/icons-material/Menu";
 
 function Navbar({ bg }: { bg: string }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,7 +32,7 @@ function Navbar({ bg }: { bg: string }) {
       </div>
       <div className="md:hidden">
         <div onClick={() => setIsOpen(true)} className="cursor-pointer">
-          <HamburgerIcon />
+          <MenuIcon />
         </div>
         {isOpen &&
           <Drawer anchor="right" open={isOpen} onClose={() => setIsOpen(false)}>

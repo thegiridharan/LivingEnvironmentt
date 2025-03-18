@@ -1,12 +1,9 @@
 "use client";
-import { Menu, Close } from "@mui/icons-material";
 import Image from "next/image";
 import React, { useState } from "react";
-import { Link } from "react-scroll";
 import NextLink from "next/link";
-import HamburgerIcon from "@/components/HamburgerIcon";
 import { Drawer, Box } from "@mui/material";
-
+import MenuIcon from "@mui/icons-material/Menu";
 
 function NavbarBlog({ bg }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,7 +28,7 @@ function NavbarBlog({ bg }) {
 
       <div className="md:hidden">
         <div onClick={() => setIsOpen(true)} className="cursor-pointer">
-          <HamburgerIcon />
+          <MenuIcon />
         </div>
         {isOpen &&
           <Drawer anchor="right" open={open} onClose={() => setIsOpen(false)}>
