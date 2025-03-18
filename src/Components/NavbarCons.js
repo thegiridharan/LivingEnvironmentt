@@ -33,7 +33,7 @@ function NavbarCons({ bg }) {
         </div>
         <div className="md:hidden">
           <div onClick={() => setIsOpen(true)} className="cursor-pointer">
-            <MenuIcon />
+            <MenuIcon fontSize="large" />
           </div>
           {isOpen &&
             <Drawer anchor="right" open={isOpen} onClose={() => setIsOpen(false)}>

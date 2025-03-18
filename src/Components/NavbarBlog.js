@@ -28,7 +28,7 @@ function NavbarBlog({ bg }) {
 
       <div className="md:hidden">
         <div onClick={() => setIsOpen(true)} className="cursor-pointer">
-          <MenuIcon />
+          <MenuIcon fontSize="large" />
         </div>
         {isOpen &&
           <Drawer anchor="right" open={open} onClose={() => setIsOpen(false)}>
