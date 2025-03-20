@@ -12,7 +12,7 @@ export default function Home() {
           <img src="/bg-main-mob.jpg" className="h-screen w-screen" />
         </div>
         <div className="absolute inset-0 grid grid-rows-2 md:grid-cols-2 mt-[100px] md:mt-[150px] pl-[40px] md:px-[100px]">
-          <div>
+          <div className="my-0 py-0">
             <h1 className="text-[24px] font-bold md:text-4xl mb-4 mr-20 mt-4 md:mt-0 md:mr-0 text-white">
               <span className="text-[#FA9818]">Construction</span>{" "}
               Services That Turn Your Dream into a Reality!{" "}
