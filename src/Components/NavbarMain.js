@@ -10,12 +10,12 @@ function NavbarMain({ bg }) {
   return (
     <div
       className={`${bg === "white" ? "bg-white text-black" : "bg-black text-white"
-        } h-[80px] py-4 px-10 flex justify-between items-center fixed w-full z-50 top-0 left-0 shadow-2xl`}
+        } h-[80px] py-4 px-0 md:px-10 flex justify-between items-center fixed w-full z-50 top-0 left-0 shadow-2xl`}
     >
       <Image src="/logo.png" width={140} height={140} alt="logo" />
 
       <div className="gap-x-8 items-center hidden md:flex">
-        <a href="/"  className="underline underline-offset-4">Home</a>
+        <a href="/" className="underline underline-offset-4">Home</a>
         <a href="/construction/services">Services</a>
         <NextLink href="/blog">Blogs</NextLink>
         <a href="/construction" >Construction</a>
@@ -61,10 +61,10 @@ function NavbarMain({ bg }) {
                   </a>
                 </li>
                 <li>
-                    <a href="/waterproof" className="block text-gray-800 hover:text-blue-600">
-                      WaterProof
-                    </a>
-                  </li>
+                  <a href="/waterproof" className="block text-gray-800 hover:text-blue-600">
+                    WaterProof
+                  </a>
+                </li>
                 <li>
                   <a href="/construction#contact" className="block text-gray-800 hover:text-blue-600">
                     Contact

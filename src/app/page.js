@@ -13,7 +13,7 @@ export default function Home() {
         </div>
         <div className="absolute inset-0 grid grid-rows-2 md:grid-cols-2 mt-[100px] md:mt-[150px] pl-[40px] md:px-[100px]">
           <div>
-            <h1 className="text-[20px] font-bold md:text-4xl mb-4 mr-20 mt-4 md:mt-0 md:mr-0 text-white">
+            <h1 className="text-[24px] font-bold md:text-4xl mb-4 mr-20 mt-4 md:mt-0 md:mr-0 text-white">
               <span className="text-[#FA9818]">Construction</span>{" "}
               Services That Turn Your Dream into a Reality!{" "}
             </h1>
@@ -22,7 +22,7 @@ export default function Home() {
             </a>
           </div>
           <div className="md:pl-[100px]">
-            <h1 className="text-[20px] font-bold md:text-4xl mb-4 mr-20 md:mt-0 md:mr-0 text-white">
+            <h1 className="text-[24px] font-bold md:text-4xl mb-4 md:mt-0 md:mr-0 text-white">
               Say Goodbye to Leaks with <br /> Hassle-free{" "}
               <span className="text-[#FA9818]">waterproofing</span>{" "}
             </h1>
