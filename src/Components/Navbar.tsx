@@ -10,7 +10,7 @@ function Navbar({ bg }: { bg: string }) {
   return (
     <div
       className={`${bg == "white" ? "bg-white text-black" : "bg-black text-white"
-        } h-[80px] py-4 px-10 flex justify-between items-center fixed z-50 top-0 left-0 w-full shadow-2xl`}
+        } h-[80px] py-4 px-[10px] md:px-10 flex justify-between items-center fixed z-50 top-0 left-0 w-full shadow-2xl`}
     >
       <Image
         src="/logo.png"
