@@ -22,7 +22,7 @@ export default function Home() {
             </a>
           </div>
           <div className="md:pl-[100px] mt-0">
-            <h1 className="text-[25px] font-bold md:text-4xl mb-4 md:mr-0 text-white mr-[20px]">
+            <h1 className="text-[25px] font-bold md:text-4xl mb-4 md:mr-0 text-white mr-[70px]">
               Say Goodbye to Leaks with Hassle-free{" "}
               <span className="text-[#FA9818]">waterproofing</span>{" "}
             </h1>
