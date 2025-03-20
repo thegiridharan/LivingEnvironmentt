@@ -13,7 +13,7 @@ function Navbar({ bg }: { bg: string }) {
         } h-[80px] py-4 px-10 flex justify-between items-center fixed z-50 top-0 left-0 w-full shadow-2xl`}
     >
       <Image
-        src="/logo.jpg"
+        src="/logo.png"
         width={140}
         height={140}
         alt="logo"
