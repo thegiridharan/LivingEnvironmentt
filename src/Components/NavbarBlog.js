@@ -12,7 +12,7 @@ function NavbarBlog({ bg }) {
       className={`${bg === "white" ? "bg-white text-black" : "bg-black text-white"
         } h-[80px] py-4 px-10 flex justify-between items-center fixed w-full z-50 top-0 left-0 shadow-2xl`}
     >
-      <Image src="/logo.png" width={140} height={140} alt="logo" />
+      <Image src="/logo.jpg" width={140} height={140} alt="logo" />
 
       <div className="gap-x-8 items-center hidden md:flex">
         <a href="/">Home</a>
