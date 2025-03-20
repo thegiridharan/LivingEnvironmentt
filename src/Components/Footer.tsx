@@ -21,7 +21,7 @@ function Footer() {
         <div className="flex text-center flex-col md:flex-row gap-y-4 mt-10 md:mt-0 md:gap-x-12 md:pr-20 ">
           <div>
             <h1>Phone no.</h1>
-            <p className="text-sm font-light text-[#9D9D9D]">+91 90355 06450</p>
+            <p className="text-sm font-light text-[#9D9D9D]">+91 78994 24464</p>
           </div>
 
           <div>
