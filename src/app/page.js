@@ -8,7 +8,8 @@ export default function Home() {
       <NavbarMain />
       <div>
         <div className="relative h-screen w-screen">
-          <img src="/bg-main.png" className="object-cover h-screen w-screen" />
+          <img src="/bg-main.png" className="object-cover h-screen w-screen hidden md:block" />
+          <img src="/bg-main-mob.jpg" className="h-screen w-screen" />
         </div>
         <div className="absolute inset-0 grid grid-rows-2 md:grid-cols-2 mt-[100px] md:mt-[150px] pl-[40px] md:px-[100px]">
           <div>
@@ -21,7 +22,7 @@ export default function Home() {
             </a>
           </div>
           <div className="md:pl-[100px]">
-            <h1 className="text-[20px] font-bold md:text-4xl mb-4 mr-20 mt-[40px] md:mt-0 md:mr-0 text-white">
+            <h1 className="text-[20px] font-bold md:text-4xl mb-4 mr-20 md:mt-0 md:mr-0 text-white">
               Say Goodbye to Leaks with <br /> Hassle-free{" "}
               <span className="text-[#FA9818]">waterproofing</span>{" "}
             </h1>
