@@ -6,7 +6,7 @@ function Footer() {
     <div className="bg-[#202020] text-white p-10">
       <div className="flex md:flex-row flex-col justify-between items-center border-b-2 border-b-[#4B4B4B] pb-10">
         <div>
-          <Image src="/logo.png" width={150} height={150} alt="logo" />
+          <Image src="/logo.jpg" width={150} height={150} alt="logo" />
           <div className="flex items-center gap-x-4 mt-4">
             <Image src="/facebook.png" width={30} height={30} alt="facebook" />
             <Image
