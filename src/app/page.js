@@ -11,7 +11,7 @@ export default function Home() {
           <img src="/bg-main.png" className="object-cover h-screen w-screen hidden md:block" />
           <img src="/bg-main-mob.jpg" className="h-screen w-screen" />
         </div>
-        <div className="absolute inset-0 grid grid-rows-2 md:grid-cols-2 mt-[100px] md:mt-[150px] pl-[40px] md:px-[100px]">
+        <div className="absolute inset-0 flex flex-col gap-[30px] md:grid md:grid-cols-2 mt-[100px] md:mt-[150px] pl-[40px] md:px-[100px]">
           <div className="my-0 py-0">
             <h1 className="text-[24px] font-bold md:text-4xl mb-4 mr-20 mt-4 md:mt-0 md:mr-0 text-white">
               <span className="text-[#FA9818]">Construction</span>{" "}
@@ -22,8 +22,8 @@ export default function Home() {
             </a>
           </div>
           <div className="md:pl-[100px] mt-0">
-            <h1 className="text-[24px] font-bold md:text-4xl mb-4 md:mr-0 text-white">
-              Say Goodbye to Leaks with <br /> Hassle-free{" "}
+            <h1 className="text-[25px] font-bold md:text-4xl mb-4 md:mr-0 text-white mr-[20px]">
+              Say Goodbye to Leaks with Hassle-free{" "}
               <span className="text-[#FA9818]">waterproofing</span>{" "}
             </h1>
             <a href="/waterproof">
