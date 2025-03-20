@@ -14,7 +14,7 @@ function NavbarCons({ bg }) {
           } h-[80px] py-4 px-10 flex justify-between items-center fixed top-0 left-0 w-full z-50 shadow-2xl`}
       >
         <Image
-          src="/logo.jpg"
+          src="/logo.png"
           width={140}
           height={140}
           alt="logo"
