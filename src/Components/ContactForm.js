@@ -34,7 +34,7 @@ function ContactForm() {
           <p>admin@livingenvironmentt.com</p>
         </div>
         <div className="font-medium md:flex flex-col items-start gap-y-2 hidden ">
-          <p>Ph.no: +91 90355 06450</p>
+          <p>Ph.no: +91 78994 24464</p>
           <p>Email: admin@livingenvironmentt.com</p>
           <p>Address: Elu's Road, Billishivale, Bangalore, KA 560077</p>
         </div>
