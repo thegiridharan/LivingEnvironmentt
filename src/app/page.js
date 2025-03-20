@@ -21,8 +21,8 @@ export default function Home() {
               <button className="bg-[#5033E2] text-white px-6 py-2 text-[16px] font-semibold mt-[20px] md:mt-[50px] rounded-md cursor-pointer">More About Construction</button>
             </a>
           </div>
-          <div className="md:pl-[100px]">
-            <h1 className="text-[24px] font-bold md:text-4xl mb-4 md:mt-0 md:mr-0 text-white">
+          <div className="md:pl-[100px] mt-0">
+            <h1 className="text-[24px] font-bold md:text-4xl mb-4 md:mr-0 text-white">
               Say Goodbye to Leaks with <br /> Hassle-free{" "}
               <span className="text-[#FA9818]">waterproofing</span>{" "}
             </h1>
