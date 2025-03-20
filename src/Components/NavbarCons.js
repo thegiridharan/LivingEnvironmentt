@@ -25,6 +25,7 @@ function NavbarCons({ bg }) {
           <Link href="construction/services">Services</Link>
           <a href="/blog">Blogs</a>
           <Link href="/construction" className="underline underline-offset-4">Construction</Link>
+        <a href="/waterproof">WaterProof</a>
           <a href="#contact">
             <button className="bg-[#5033E2] text-white px-4 py-1 rounded-md cursor-pointer">
               Free Consultation
@@ -62,6 +63,11 @@ function NavbarCons({ bg }) {
                   <li>
                     <a href="/construction" className="block text-gray-800 hover:text-blue-600">
                       Construction
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/waterproof" className="block text-gray-800 hover:text-blue-600">
+                      WaterProof
                     </a>
                   </li>
                   <li>

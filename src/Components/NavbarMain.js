@@ -5,9 +5,8 @@ import NextLink from "next/link";
 import { Drawer, Box } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 
-function NavbarServices({ bg }) {
-    const [isOpen, setIsOpen] = useState(false);
-  
+function NavbarMain({ bg }) {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div
       className={`${bg === "white" ? "bg-white text-black" : "bg-black text-white"
@@ -16,8 +15,8 @@ function NavbarServices({ bg }) {
       <Image src="/logo.png" width={140} height={140} alt="logo" />
 
       <div className="gap-x-8 items-center hidden md:flex">
-        <a href="/">Home</a>
-        <a href="/construction/services" className="underline underline-offset-4">Services</a>
+        <a href="/"  className="underline underline-offset-4">Home</a>
+        <a href="/construction/services">Services</a>
         <NextLink href="/blog">Blogs</NextLink>
         <a href="/construction" >Construction</a>
         <a href="/waterproof">WaterProof</a>
@@ -33,7 +32,7 @@ function NavbarServices({ bg }) {
           <MenuIcon fontSize="large" />
         </div>
         {isOpen &&
-          <Drawer anchor="right" open={isOpen} onClose={() => setIsOpen(false)}>
+          <Drawer anchor="right" open={open} onClose={() => setIsOpen(false)}>
             <Box
               className="w-64 p-4"
               role="presentation"
@@ -80,4 +79,4 @@ function NavbarServices({ bg }) {
   );
 }
 
-export default NavbarServices;
+export default NavbarMain;

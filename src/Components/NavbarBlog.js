@@ -19,6 +19,7 @@ function NavbarBlog({ bg }) {
         <a href="/construction/services">Services</a>
         <NextLink href="/blog" className="underline underline-offset-4">Blogs</NextLink>
         <a href="/construction" >Construction</a>
+        <a href="/waterproof">WaterProof</a>
         <a href="/construction#contact">
           <button className="bg-[#5033E2] text-white px-4 py-1 rounded-md cursor-pointer">
             Free Consultation
@@ -57,6 +58,11 @@ function NavbarBlog({ bg }) {
                 <li>
                   <a href="/construction" className="block text-gray-800 hover:text-blue-600">
                     Construction
+                  </a>
+                </li>
+                <li>
+                  <a href="/waterproof" className="block text-gray-800 hover:text-blue-600">
+                    WaterProof
                   </a>
                 </li>
                 <li>

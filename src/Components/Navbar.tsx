@@ -20,10 +20,11 @@ function Navbar({ bg }: { bg: string }) {
         className="p"
       />
       <div className="gap-x-8 items-center hidden md:flex">
-        <Link href="#" className="underline underline-offset-4">Home</Link>
+        <Link href="/">Home</Link>
         <Link href="/construction/services">Services</Link>
         <a href="/blog">Blogs</a>
         <Link href="/construction">Construction</Link>
+        <a href="/waterproof"  className="underline underline-offset-4">WaterProof</a>
         <a href="#contact">
           <button className="bg-[#5033E2] text-white px-4 py-1 rounded-md cursor-pointer">
             Free Consultation
@@ -61,6 +62,11 @@ function Navbar({ bg }: { bg: string }) {
                 <li>
                   <a href="/construction" className="block text-gray-800 hover:text-blue-600">
                     Construction
+                  </a>
+                </li>
+                <li>
+                  <a href="/waterproof" className="block text-gray-800 hover:text-blue-600">
+                    WaterProof
                   </a>
                 </li>
                 <li>
